@@ -9,7 +9,7 @@ syntax on
 
 filetype plugin indent on
 
-colorscheme murphy
+colorscheme elflord
 
 " Use different backup directory
 set backupdir=~/.vim/backup
