@@ -26,7 +26,7 @@ map td :tabclose<CR>
 "
 " Status line
 "
-set statusline=%<===\ %f%(\ ===\ %h%)%(\ ===\ %m%)%(\ ===\ %r%)\ ===%====\ %b(0x%B)\ ===\ %l,%c%V\ ===\ %P\ ===%0* laststatus=2
+set statusline=%<===\ %f%(\ ===\ %h%)%(\ ===\ %m%)%(\ ===\ %r%)\ %{fugitive#statusline()}\===%====\ %b(0x%B)\ ===\ %l,%c%V\ ===\ %P\ ===%0* laststatus=2
 
 "set statusline=%<%1*===\ %5*%f%1*%(\ ===\ %4*%h%1*%)%(\ ===\ %4*%m%1*%)%(\ ===\ %4*%r%1*%)\ ===%====\ %2*%b(0x%B)%1*\ ===\ %3*%l,%c%V%1*\ ===\ %5*%P%1*\ ===%0* laststatus=2
 
