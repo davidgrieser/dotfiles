@@ -27,3 +27,5 @@ PROMPT_COMMAND='__git_ps1 "\u@\h:\W" "\\\$ "'
 
 # Default Prompt
 #PS1='\h:\W \u\$'
+
+alias fm-dev='foreman start -f Procfile.dev'
