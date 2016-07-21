@@ -54,7 +54,7 @@ map <F2> :!g++ -o %:r %<cr>
 map <F3> :w<cr>:!coffee %<cr>
 map <S-F3> :w<cr>:!coffee -c %<cr>
 map <F4> <Esc>:w<cr>:!ruby %<cr>
-map <F5> :!clang++ -std=c++11 -stdlib=libc++ -o %:r %<cr>:!./%:r<cr>
+map <F5> :!clang++ -std=c++1y -stdlib=libc++ -o bin/%:r %<cr>:!./bin/%:r<cr>
 
 " playing around with ruby end tokens
 if !exists("*RubyEndToken")
